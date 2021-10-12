@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Activities.AddProviderActivity"
+    >
+
+
+
+
+    <EditText
+        android:id="@+id/editTextProviderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Provider Name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/editTextProviderEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Provider Email Address"
+        android:inputType="textEmailAddress"
+        />
+
+
+    <EditText
+        android:id="@+id/editTextProviderPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Provider Phone Number"
+        android:inputType="phone"
+        />
+
+
+    <EditText
+        android:id="@+id/editTextProviderLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Provider Latitude"
+        android:inputType="numberDecimal"
+        />
+
+
+    <EditText
+        android:id="@+id/editTextProviderLong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Provider Longitude"
+        android:inputType="numberDecimal"
+        />
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        />
+
+</LinearLayout>
