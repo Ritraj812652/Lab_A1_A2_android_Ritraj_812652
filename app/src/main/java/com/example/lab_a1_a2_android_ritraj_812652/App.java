@@ -17,7 +17,7 @@ public class App extends Application {
         if(isFirstRun(this))
         {
             addData(this);
-            getSharedPreferences("com.example.productapp",MODE_PRIVATE).edit().putBoolean("isFirstRun",false).apply();
+            getSharedPreferences("com.example.lab_a1_a2_android_ritraj_812652",MODE_PRIVATE).edit().putBoolean("isFirstRun",false).apply();
         }
     }
 

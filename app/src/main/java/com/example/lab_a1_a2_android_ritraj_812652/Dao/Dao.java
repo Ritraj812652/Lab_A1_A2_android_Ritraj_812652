@@ -33,13 +33,4 @@ public interface Dao
     @Query("SELECT * FROM product WHERE provider_phone LIKE :phone AND  provider_name LIKE :name")
     List<Product> getAllProductsWithPhone(String phone,String name);
 
-
-    @Insert
-    void insertProvider(Provider provider);
-    @Update
-    void updateProvider(Provider provider);
-
-    @Delete
-    void deleteProvider(Provider provider);
-
 }

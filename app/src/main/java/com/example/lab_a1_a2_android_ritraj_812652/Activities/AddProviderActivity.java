@@ -99,13 +99,13 @@ public class AddProviderActivity extends AppCompatActivity implements  View.OnCl
             {
 
                 provider.setUid(providerToBeEdited.getUid());
-                dao.updateProvider(provider);
+              //  dao.updateProvider(provider);
                 Toast.makeText(this,"Data Updated",Toast.LENGTH_LONG).show();
             }
             else
             {
 
-                dao.insertProvider(provider);
+              //  dao.insertProvider(provider);
                 Toast.makeText(this,"Data Added",Toast.LENGTH_LONG).show();
             }
 
